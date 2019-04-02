@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "dotenv": "^7.0.0",
+    "joi": "^14.3.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.4.20",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4"
+  },
+  "scripts": {
+    "start": "cross-env NODE_PATH=src node src",
+    "start:dev": "cross-env NODE_PATH=src nodemon --watch src/ src/index.js"
+  }
+}
