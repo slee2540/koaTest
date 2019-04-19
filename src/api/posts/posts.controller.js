@@ -93,7 +93,6 @@ exports.list = async ctx => {
       : null;
 
   //  데이터와, 그 다음 데이터를 가져오는 API 주소를 응답합니다.
-  console.log(next);
   ctx.body = {
     next,
     data: posts
