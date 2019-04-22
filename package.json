@@ -7,8 +7,11 @@
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
+    "koa-websocket": "^5.0.1",
     "mongoose": "^5.4.20",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "radis": "^1.0.5",
+    "redis": "^2.8.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
