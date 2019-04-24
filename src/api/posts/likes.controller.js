@@ -1,4 +1,4 @@
-const Post = require("models/post");
+const Post = require("models/post"); //디비 정보
 
 exports.like = async ctx => {
   /* 로그인 확인 */
